@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (large datasets)
+personareplica/data/raw/*.jsonl
+personareplica/data/processed/**/*.jsonl
+
+# Keep directory structure but ignore contents
+!personareplica/data/raw/.gitkeep
+!personareplica/data/processed/.gitkeep
+
+# FAISS indices and texts (generated files, can be large)
+personareplica/retrieval/indices/*.index
+personareplica/retrieval/indices/*_texts.json
+
+# Keep the indices directory
+!personareplica/retrieval/indices/.gitkeep
+
+# Logs
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Documentation builds
+docs/_build/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+*.tmp
+temp/
+tmp/
